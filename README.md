@@ -1,5 +1,8 @@
 # 🕷️ Erlangs Scraping Spider 
 
+<img width="938" height="431" alt="Screenshot 2026-11-07 230518" src="https://github.com/user-attachments/assets/bd55b34a-edd4-4059-b3a7-c9add3abf1a7" />
+<img width="944" height="422" alt="Screenshot 2026-11-07 230533" src="https://github.com/user-attachments/assets/1f0bbe05-3445-47b4-a806-e367ea4bc926" />
+
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Scrapling](https://img.shields.io/badge/powered%20by-Scrapling-10b981.svg)](https://github.com/D4Vinci/Scrapling)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-6366f1.svg)]()
@@ -211,34 +214,8 @@ Jika ingin menjalankan scraping langsung dari baris perintah terminal tanpa memb
 
 Hasil scraping disimpan dalam dua format yang siap diolah untuk analisis data atau database:
 
-### 1. Format JSON (`berita_ijazah_jokowi.json`)
-```json
-[
-    {
-        "sumber": "Liputan6",
-        "domain": "liputan6.com",
-        "judul": "Ini Penampakan Ijazah Asli Jokowi",
-        "waktu": "2 days ago",
-        "ringkasan": "Presiden ke-7 RI Joko Widodo (Jokowi) mengungkapkan, dirinya pertama kali diperlihatkan...",
-        "url": "https://www.liputan6.com/news/read/8328909/ini-penampakan-ijazah-asli-jokowi"
-    },
-    {
-        "sumber": "CNN Indonesia",
-        "domain": "cnnindonesia.com",
-        "judul": "Janji Jokowi Tunjukkan Ijazah Asli di Persidangan, Apakah Terbukti?",
-        "waktu": "2 days ago",
-        "ringkasan": "Jokowi hadir di sidang kasus ijazah palsu Roy Suryo hari ini. Apakah Jokowi akan membuktikan...",
-        "url": "https://www.cnnindonesia.com/nasional/20261105091655-20-1423517/janji-jokowi-tunjukkan-ijazah-asli-di-persidangan-apakah-terbukti"
-    }
-]
-```
 
 ### 2. Format CSV (`berita_ijazah_jokowi.csv`)
-| sumber | domain | judul | waktu | ringkasan | url |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| Liputan6 | liputan6.com | Ini Penampakan Ijazah Asli Jokowi | 2 days ago | Presiden ke-7 RI Joko Widodo... | https://www.liputan6.com/... |
-| detikcom | detik.com | Jokowi Pamer Ijazah SD-S1 di Sidang... | 1 day ago | Presiden Jokowi menunjukkan... | https://www.detik.com/... |
-| CNN Indonesia | cnnindonesia.com | Janji Jokowi Tunjukkan Ijazah Asli... | 2 days ago | Jokowi hadir di sidang kasus... | https://www.cnnindonesia.com/... |
 
 ---
 
