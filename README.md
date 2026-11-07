@@ -77,8 +77,8 @@ scraping-demo/
 ├── requirements.txt           # Daftar dependensi paket Python
 ├── README.md                  # Dokumentasi proyek (file ini)
 ├── .gitignore                 # File pengabaian Git (venv, cache, temporary files)
-├── berita_ijazah_jokowi.json  # Output sampel data format JSON
-└── berita_ijazah_jokowi.csv   # Output sampel data format CSV
+├── hasil.json  # Output sampel data format JSON
+└── hasil.csv   # Output sampel data format CSV
 ```
 
 ---
