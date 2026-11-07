@@ -177,7 +177,7 @@ Jika ingin menjalankan scraping langsung dari baris perintah terminal tanpa memb
 
 **Di Windows:**
 ```powershell
-# Default: mencari 'ijazah jokowi' dengan batas 20 berita
+# Default: mencari 'teknologi' dengan batas 20 berita
 .\venv\Scripts\python.exe scrape_berita.py --limit 20
 
 # Mengganti kata kunci dan batas jumlah
@@ -196,17 +196,17 @@ Jika ingin menjalankan scraping langsung dari baris perintah terminal tanpa memb
 ./venv/bin/python3 scrape_berita.py --limit 20
 
 # Kustomisasi kata kunci & mode headless
-./venv/bin/python3 scrape_berita.py --keyword "sidang ijazah jokowi" --headless --limit 15
+./venv/bin/python3 scrape_berita.py --keyword "berita teknologi" --headless --limit 15
 ```
 
 #### Opsi Parameter CLI (`scrape_berita.py`):
 | Parameter | Default | Deskripsi |
 | :--- | :--- | :--- |
-| `--keyword`, `-k` | `"ijazah jokowi"` | Kata kunci pencarian berita |
+| `--keyword`, `-k` | `teknologi` | Kata kunci pencarian berita |
 | `--limit`, `-l` | `20` | Batas maksimal jumlah berita yang diambil |
 | `--max-pages`, `-p`| `5` | Batas maksimal halaman mesin pencari yang diperiksa |
 | `--headless` | `False` | Berjalan di latar belakang tanpa membuka jendela GUI browser |
-| `--output`, `-o` | `"berita_ijazah_jokowi"`| Prefix nama file hasil penyimpanan (`.json` & `.csv`) |
+| `--output`, `-o` | `"berita_teknologi"`| Prefix nama file hasil penyimpanan (`.json` & `.csv`) |
 
 ---
 
