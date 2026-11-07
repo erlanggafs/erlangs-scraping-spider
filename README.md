@@ -1,4 +1,4 @@
-# 🕷️ Scrapling Spider News Crawler
+# 🕷️ Erlangs Scraping Spider 
 
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Scrapling](https://img.shields.io/badge/powered%20by-Scrapling-10b981.svg)](https://github.com/D4Vinci/Scrapling)
